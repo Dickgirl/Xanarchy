@@ -1,0 +1,559 @@
+@charset "UTF-8";
+@font-face {
+  font-family: 'zocial';
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.eot');
+  src: url('https://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.eot?#iefix') format('eot'), url('https://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.woff') format('woff'), url('https://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.ttf') format('truetype'), url('https://weloveiconfonts.com/api/fonts/zocial/zocial-regular-webfont.svg#zocialregular') format('svg');
+}
+.zocial-acrobat:before {
+  content: "\00E3";
+}
+.zocial-amazon:before {
+  content: "a";
+}
+.zocial-android:before {
+  content: "&";
+}
+.zocial-angellist:before {
+  content: "\00D6";
+}
+.zocial-aol:before {
+  content: "\"";
+}
+.zocial-appnet:before {
+  content: "\00E1";
+}
+.zocial-appstore:before {
+  content: "A";
+}
+.zocial-bitbucket:before {
+  content: "\00E9";
+}
+.zocial-bitcoin:before {
+  content: "2";
+}
+.zocial-blogger:before {
+  content: "B";
+}
+.zocial-buffer:before {
+  content: "\00E5";
+}
+.zocial-call:before {
+  content: "7";
+}
+.zocial-cal:before {
+  content: ".";
+}
+.zocial-cart:before {
+  content: "\00C9";
+}
+.zocial-chrome:before {
+  content: "[";
+}
+.zocial-cloudapp:before {
+  content: "c";
+}
+.zocial-creativecommons:before {
+  content: "C";
+}
+.zocial-delicious:before {
+  content: "#";
+}
+.zocial-digg:before {
+  content: ";";
+}
+.zocial-disqus:before {
+  content: "Q";
+}
+.zocial-dribbble:before {
+  content: "D";
+}
+.zocial-dropbox:before {
+  content: "d";
+}
+.zocial-drupal:before {
+  content: "\00E4";
+}
+.zocial-dwolla:before {
+  content: "\00E0";
+}
+.zocial-email:before {
+  content: "]";
+}
+.zocial-eventasaurus:before {
+  content: "v";
+}
+.zocial-eventbrite:before {
+  content: "|";
+}
+.zocial-eventful:before {
+  content: "'";
+}
+.zocial-evernote:before {
+  content: "E";
+}
+.zocial-facebook:before {
+  content: "f";
+}
+.zocial-fivehundredpx:before {
+  content: "0";
+}
+.zocial-flattr:before {
+  content: "%";
+}
+.zocial-flickr:before {
+  content: "F";
+}
+.zocial-forrst:before {
+  content: ":";
+}
+.zocial-foursquare:before {
+  content: "4";
+}
+.zocial-github:before {
+  content: "g";
+}
+.zocial-gmail:before {
+  content: "m";
+}
+.zocial-google:before {
+  content: "G";
+}
+.zocial-googleplay:before {
+  content: "h";
+}
+.zocial-googleplus:before {
+  content: "+";
+}
+.zocial-gowalla:before {
+  content: "@";
+}
+.zocial-grooveshark:before {
+  content: "8";
+}
+.zocial-guest:before {
+  content: "?";
+}
+.zocial-html5:before {
+  content: "5";
+}
+.zocial-ie:before {
+  content: "6";
+}
+.zocial-instagram:before {
+  content: "\00DC";
+}
+.zocial-instapaper:before {
+  content: "I";
+}
+.zocial-intensedebate:before {
+  content: "{";
+}
+.zocial-itunes:before {
+  content: "i";
+}
+.zocial-klout:before {
+  content: "K";
+}
+.zocial-lanyrd:before {
+  content: "-";
+}
+.zocial-lastfm:before {
+  content: "l";
+}
+.zocial-linkedin:before {
+  content: "L";
+}
+.zocial-macstore:before {
+  content: "^";
+}
+.zocial-meetup:before {
+  content: "M";
+}
+.zocial-myspace:before {
+  content: "_";
+}
+.zocial-ninetyninedesigns:before {
+  content: "9";
+}
+.zocial-openid:before {
+  content: "o";
+}
+.zocial-opentable:before {
+  content: "\00C7";
+}
+.zocial-paypal:before {
+  content: "$";
+}
+.zocial-pinboard:before {
+  content: "n";
+}
+.zocial-pinterest:before {
+  content: "1";
+}
+.zocial-plancast:before {
+  content: "P";
+}
+.zocial-plurk:before {
+  content: "j";
+}
+.zocial-pocket:before {
+  content: "\00E7";
+}
+.zocial-podcast:before {
+  content: "`";
+}
+.zocial-posterous:before {
+  content: "~";
+}
+.zocial-print:before {
+  content: "\00D1";
+}
+.zocial-quora:before {
+  content: "q";
+}
+.zocial-reddit:before {
+  content: ">";
+}
+.zocial-rss:before {
+  content: "R";
+}
+.zocial-scribd:before {
+  content: "}";
+}
+.zocial-skype:before {
+  content: "S";
+}
+.zocial-smashing:before {
+  content: "*";
+}
+.zocial-songkick:before {
+  content: "k";
+}
+.zocial-soundcloud:before {
+  content: "s";
+}
+.zocial-spotify:before {
+  content: "=";
+}
+.zocial-statusnet:before {
+  content: "\00E2";
+}
+.zocial-steam:before {
+  content: "b";
+}
+.zocial-stripe:before {
+  content: "\00A3";
+}
+.zocial-stumbleupon:before {
+  content: "/";
+}
+.zocial-tumblr:before {
+  content: "t";
+}
+.zocial-twitter:before {
+  content: "T";
+}
+.zocial-viadeo:before {
+  content: "H";
+}
+.zocial-vimeo:before {
+  content: "V";
+}
+.zocial-vk:before {
+  content: "N";
+}
+.zocial-weibo:before {
+  content: "J";
+}
+.zocial-wikipedia:before {
+  content: ",";
+}
+.zocial-windows:before {
+  content: "W";
+}
+.zocial-wordpress:before {
+  content: "w";
+}
+.zocial-xing:before {
+  content: "X";
+}
+.zocial-yahoo:before {
+  content: "Y";
+}
+.zocial-yelp:before {
+  content: "y";
+}
+.zocial-youtube:before {
+  content: "U";
+}
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+  font-syle: normal;
+}
+.author-green {
+  border: 1px solid #25a25a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  background: #2bc06a;
+  justify-content: space-around;
+}
+.author-green .info {
+  text-align: center;
+  align-items: center;
+  float: left;
+  color: #fff;
+  padding-top: 20px;
+  flex: 1 100%;
+}
+@media all and (min-width: 600px) {
+  .author-green .info {
+    flex: 1;
+  }
+}
+.author-green .info .name {
+  font-weight: 300;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-top: -5px;
+}
+.author-green .info .social {
+  margin-top: -23px;
+}
+.author-green .info .social a {
+  text-decoration: none;
+  color: #40d47e;
+  padding: 5px;
+}
+.author-green .info .social a:hover {
+  color: #7ee2a8;
+}
+.author-green .info img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.author-green .about {
+  float: right;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #2ecc71;
+  flex: 1 100%;
+}
+@media all and (min-width: 600px) {
+  .author-green .about {
+    flex: 2;
+  }
+}
+.author-green .about .bio {
+  padding: 10px;
+}
+.author-green ::-moz-selection {
+  background-color: #54d98c;
+  color: #fff;
+}
+.author-green ::selection {
+  background-color: #54d98c;
+  color: #fff;
+}
+.author-turquoise {
+  border: 1px solid #148f77;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  background: #18af91;
+  justify-content: space-around;
+}
+.author-turquoise .info {
+  text-align: center;
+  align-items: center;
+  float: left;
+  color: #fff;
+  padding-top: 20px;
+  flex: 1 100%;
+}
+@media all and (min-width: 600px) {
+  .author-turquoise .info {
+    flex: 1;
+  }
+}
+.author-turquoise .info .name {
+  font-weight: 300;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-top: -5px;
+}
+.author-turquoise .info .social {
+  margin-top: -23px;
+}
+.author-turquoise .info .social a {
+  text-decoration: none;
+  color: #1dd2af;
+  padding: 5px;
+}
+.author-turquoise .info .social a:hover {
+  color: #55e7ca;
+}
+.author-turquoise .info img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.author-turquoise .about {
+  float: right;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #1abc9c;
+  flex: 1 100%;
+}
+@media all and (min-width: 600px) {
+  .author-turquoise .about {
+    flex: 2;
+  }
+}
+.author-turquoise .about .bio {
+  padding: 10px;
+}
+.author-turquoise ::-moz-selection {
+  background-color: #28e1bd;
+  color: #fff;
+}
+.author-turquoise ::selection {
+  background-color: #28e1bd;
+  color: #fff;
+}
+.author-purple {
+  border: 1px solid #804399;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  background: #954eb1;
+  justify-content: space-around;
+}
+.author-purple .info {
+  text-align: center;
+  align-items: center;
+  float: left;
+  color: #fff;
+  padding-top: 20px;
+  flex: 1 100%;
+}
+@media all and (min-width: 600px) {
+  .author-purple .info {
+    flex: 1;
+  }
+}
+.author-purple .info .name {
+  font-weight: 300;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-top: -5px;
+}
+.author-purple .info .social {
+  margin-top: -23px;
+}
+.author-purple .info .social a {
+  text-decoration: none;
+  color: #a66bbe;
+  padding: 5px;
+}
+.author-purple .info .social a:hover {
+  color: #c6a0d5;
+}
+.author-purple .info img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.author-purple .about {
+  float: right;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #9b59b6;
+  flex: 1 100%;
+}
+@media all and (min-width: 600px) {
+  .author-purple .about {
+    flex: 2;
+  }
+}
+.author-purple .about .bio {
+  padding: 10px;
+}
+.author-purple ::-moz-selection {
+  background-color: #b07cc6;
+  color: #fff;
+}
+.author-purple ::selection {
+  background-color: #b07cc6;
+  color: #fff;
+}
+.author-red {
+  border: 1px solid #d62c1a;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  background: #e53f2e;
+  justify-content: space-around;
+}
+.author-red .info {
+  text-align: center;
+  align-items: center;
+  float: left;
+  color: #fff;
+  padding-top: 20px;
+  flex: 1 100%;
+}
+@media all and (min-width: 600px) {
+  .author-red .info {
+    flex: 1;
+  }
+}
+.author-red .info .name {
+  font-weight: 300;
+  font-family: 'Open Sans Condensed', sans-serif;
+  margin-top: -5px;
+}
+.author-red .info .social {
+  margin-top: -23px;
+}
+.author-red .info .social a {
+  text-decoration: none;
+  color: #ea6153;
+  padding: 5px;
+}
+.author-red .info .social a:hover {
+  color: #f29f97;
+}
+.author-red .info img {
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+}
+.author-red .about {
+  float: right;
+  color: #fff;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #e74c3c;
+  flex: 1 100%;
+}
+@media all and (min-width: 600px) {
+  .author-red .about {
+    flex: 2;
+  }
+}
+.author-red .about .bio {
+  padding: 10px;
+}
+.author-red ::-moz-selection {
+  background-color: #ed7669;
+  color: #fff;
+}
+.author-red ::selection {
+  background-color: #ed7669;
+  color: #fff;
+}

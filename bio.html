@@ -1,0 +1,90 @@
+<!-- Full credits to DRNT Envy -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+<meta charset="utf-8">
+<title>Xanarchy</title>
+<link rel="stylesheet" href="assets/css/main.css">
+<link rel="SHORTCUT ICON" href="./assets/images/xanarchy.png" type="image/x-icon"/>
+<link href='https://fonts.googleapis.com/css?family=Nosifer' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Iceland' rel='stylesheet' type='text/css'>
+<link href="https://fonts.googleapis.com/css?family=Sarpanch:700" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=play" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" type="text/css" href="https://csshake.surge.sh/csshake.min.css"><link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="./assets/css/bio.css">
+</head>
+<body>
+<main>
+<script>
+function audioPlay() {
+var audio = document.getElementById("audio");
+audio.volume = 0.4;
+audio.play()
+}
+function videoPlay() {
+var video = document.getElementById("video");
+video.play()
+}
+</script>
+
+<input type="checkbox" autocomplete="off" id="overlay-toggle">
+<div class="overlay fullscreen">
+<label for="overlay-toggle" onclick="audioPlay();videoPlay()">
+<span class="no-hover" style="font-family: mono; font-size: 0.6em;">tap to enter</span>
+<span class="hover" style="font-family: mono; font-size: 0.6em;">click to enter</span>
+</label>
+</div>
+<audio loop="" preload="auto" id="audio">
+<source src="assets/audio/audio.mp3" type="audio/mp3">
+</audio>
+<video muted="muted" loop="" playsinline="" preload="auto" class="fullscreen bg-video" id="video">
+<source src="assets/images/xanarchy.mp4" type="video/mp4">
+</video>
+<section class="fullscreen text-content">
+
+  <div style="text-align:left;" class="user-profile">
+  	<img class="avatar" src="https://pbs.twimg.com/profile_images/1487761429012824067/ycd3RFYU_400x400.jpg" alt="Ash" />
+
+  <div class="username">Exxploiting</div>
+<div class="bio">
+  Owner
+</div>
+  <div class="description">
+    Made the site and your mom
+</div>
+<ul class="data">
+  <li>
+    <button onclick="document.location='https://twitter.com/Exxploiting'" class="pulse"><span class="entypo-twitter"> Twitter</span></button>
+  </li>
+</ul>
+</div>
+
+<br></br>
+<br></br>
+<br></br>
+  <div style="text-align:left;" class="user-profile">
+    <img class="avatar" src="https://pbs.twimg.com/profile_images/1404858687777280002/-eTLvaNj_400x400.jpg" alt="Ash" />
+  <div class="username">Medyuuna</div>
+  <div class="bio">
+  Co-Owner
+  </div>
+  <div class="description">
+  booting your wifi off with the net
+  </div>
+  <ul class="data">
+  <li>
+    <button onclick="document.location='https://twitter.com/Medyuuna'" class="pulse"><span class="entypo-twitter"> Twitter</span></button>
+  </li>
+  </ul>
+  </div>
+</div>
+
+
+</section>
+</main>
+  <script src="./assets/js/script.js"></script>
+</body>
+</html>
