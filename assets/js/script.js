@@ -52,7 +52,7 @@ class TextScramble {
   }
 }
 
-const phrases = [  'Yes i Sim swapped your nan',  'Yes i stole her penton money',  'Yes i touched you differently',  'My crime is boredom',  'Stuck my dick in a tree once',  'i am the spookest hacker',  'send nukes to isis',  'after all, were all alike.',  'i hacked a printer once',  'Imagine getting Clowned by envy LMFAO',  'if her age is on the cock, shes ready for the cock',  'compare funds',  'bootersqaurd ran your mom',  'smoke weed but its coke',  'exxploiting is not kegz', 'whatsa 3way tcp handshake', 'i have youe address']
+const phrases = [  'Yes i Sim swapped your nan',  'Yes i stole her penton money',  'Yes i touched you differently',  'My crime is boredom',  'Stuck my dick in a tree once',  'i am the spookest hacker',  'send nukes to isis',  'after all, were all alike.',  'i hacked a printer once',  'Imagine getting Clowned by envy LMFAO',  'if her age is on the cock, shes ready for the cock',  'compare funds',  'bootersqaurd ran your mom',  'smoke weed but its coke',  'exxploiting is not kegz', 'whatsa 3way tcp handshake', 'i have youe address', 'If I wanted to fuck that bitch id put a skimask on her', 'I had sex with a pregnant lady and told ma homies i had a 3some', 'envy is what no pussy does to a mf', 'Exxplotings buy me the giftcard', 'Dude I legit hacked my street lamp post and im not larping Kaleb', 'what does quote mmean']
 
 
 const el = document.querySelector('.text')
