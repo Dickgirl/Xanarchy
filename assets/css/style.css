@@ -10,6 +10,10 @@ body {
   padding: 2.23em;
 }
 
+h1{
+text-shadow: 2px 2px;	
+}
+
 .title-pen {
   color: #333;
   font-family: "Coda", sans-serif;
